@@ -7,8 +7,9 @@ public class Loops {
 	public static void main(String[] args) {
 //		for(float f=10.78f;f<12.34f;f++) {
 //			System.out.println("Hello");
-//			//Factorial
 //		}
+		
+//			Factorial----->
 
 //			System.out.println("Enter the number: ");
 //			Scanner sc=new Scanner(System.in);

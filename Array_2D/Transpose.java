@@ -7,7 +7,7 @@ public class Transpose{
 	static int row;
 	static int col;
 //	static int[][]transpose;
-public static int[][] create2DArray(){
+	public static int[][] create2DArray(){
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter number of rows: ");
 	 row=sc.nextInt();

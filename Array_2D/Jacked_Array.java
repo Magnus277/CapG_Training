@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Jacked_Array {
 	public static int[][] createJaggedArray(){
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter rows: ");
+		System.out.println("Enter number of rows: ");
 		int rows=sc.nextInt();
 		int[][] arr=new int[rows][];
 		for(int i=0;i<arr.length;i++) {

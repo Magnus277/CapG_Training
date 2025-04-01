@@ -10,15 +10,28 @@ public class ArithmeticOperators {
 //		System.out.println(c);
 //		int result = 10*20+(20+3)+50-(2+1); //270
 //		System.out.println(result);
+		
+		//---------------------------------------
+		
+		
 //		System.out.println("Hello"+true+10); // left to right associativity
-//		System.out.println(10+10.75+'A'+true+"hi"+"demo"+15); error for 
+//		System.out.println(true+10+"Hello"); // error as boolean+literal concatenate cant happen
+//		System.out.println(10+10.75+'A'+true+"hi"+"demo"+15); //error 
 //		byte x = 10+50; // stores bcuz its in the range of byte(128)
+		
 //		
+		//---------------------------
+		
+		
 //		float f = 10.56f;
 //		double d = 10.44d;
 //		System.out.println(f+d);
+		
+		
 //		int _ = 21;
 //		System.out.println(_); //error as only $ is allowed as special character
+		
+		
 		// Rules of string concatenation:
 		// string+boolean=concatenated string
 //		System.out.println("AB"+true);
