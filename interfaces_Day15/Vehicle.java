@@ -12,8 +12,7 @@ public interface Vehicle {
 	
 	public static void main(String[] args) {
 		utility();
-		
-		//cant access default methods in static context//
+//		test(); 	//cant access default methods in static context//
 		
 	}
 		default void test() {

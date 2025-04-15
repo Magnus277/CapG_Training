@@ -2,7 +2,7 @@ package one_to_many_Day11;
 
 import java.util.Scanner;
 
-public class Driver {
+public class BankDriver {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter array size: ");

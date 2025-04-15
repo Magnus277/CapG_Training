@@ -10,7 +10,7 @@ public interface C extends A, B {
 		// variable
 		// with same name
 		System.out.println(A.a);
-		// message(); //static meths are not inheritaed
+		// message(); //static meths are not inherited
 
 		A.message();
 		B.message();
@@ -24,11 +24,5 @@ public interface C extends A, B {
 	// *if we create another default method with same name as parent then the
 	// compiler doesnt throw any error as the new default method will be
 	// belonging to type C and both default methods from type A and B will be
-	// shadowed.
-
-	// default void print() {
-	// System.out.println("Hola");
-	// }
-
-	
+	// shadowed.s
 }

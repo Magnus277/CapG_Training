@@ -18,7 +18,14 @@ public class Driver {
 		String s="Rohit";
 		System.out.println(s.hashCode());
 		
+		Employee e3=e1.cloneEmployee(e1);
+		Employee emp1=e2.cloneEmployee(e2);
+		
+		System.out.println(e1);
+		System.out.println();
+		
 		Object o=e1;
+		System.out.println(o);
 		
 		
 	}
